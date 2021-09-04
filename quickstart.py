@@ -30,6 +30,7 @@ with smart_run(session):
   # activity		
   session.unfollow_users(amount=500,
                            style="FIFO",
-						   instapy_followed_enabled = True,
-						   instapy_followed_param = "nonfollowers",
+						#    instapy_followed_enabled = True,
+						#    instapy_followed_param = "all",
+						#    nonFollowers = False,
                            unfollow_after=12 * 60 * 60, sleep_delay=601)
